@@ -1,28 +1,28 @@
 version: '3'
 services:
   patel:
-    image: nileshpatidar007/movie:latest
+    image: nileshpatidar007/samsung:latest
     ports:
       - "92:80"
     deploy:
       replicas: 3
 
   patel12:
-    image: nileshpatidar007/recharge:latest
+    image: nileshpatidar007/iphone:latest
     ports:
       - "94:80"
     deploy:
       replicas: 3
 
   patel13:
-    image: nileshpatidar007/train:latest
+    image: nileshpatidar007/nokia:latest
     ports:
       - "96:80"
     deploy:
       replicas: 3
 
   patel14:
-    image: nileshpatidar007/flight:latest
+    image: nileshpatidar007/vivo:latest
     ports:
       - "98:80"
     deploy:
